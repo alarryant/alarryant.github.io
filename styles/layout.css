@@ -1,16 +1,175 @@
 body {
-  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  font-family: 'Barlow', sans-serif;
+  color: #47596b;
+}
+
+.container {
+  margin: auto;
+  width: 1100px;
 }
 
 img {
   height: 300px;
   width: 300px;
+  margin: 50px 50px 0px 0px;
+  float: left;
+  clear: left;
 }
 
-.hobby {
-  font-size: 40px;
-  color: #47596b;
+.contact {
+  font-size: 1.25em;
+  display: inline-block;
+  margin: 0px 5px;
+}
+
+.details {
+  width: 300px;
+  text-align: left;
+}
+
+.fa-camera {
+  font-size: 35px;
   background-color: #e2e2e2;
-  border-radius: 50px;
-  padding: 5px;
+  border-radius: 60px;
+  padding: 15px;
+  margin: 0px 5px;
+  display: inline-block;
+  opacity: 1;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.fa-gamepad {
+  font-size: 35px;
+  background-color: #e2e2e2;
+  border-radius: 60px;
+  padding: 15px 17px 15px 13px;
+  margin: 0px 5px;
+  display: inline-block;
+  opacity: 1;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.fa-palette {
+  font-size: 35px;
+  background-color: #e2e2e2;
+  border-radius: 60px;
+  padding: 15px;
+  margin: 0px 5px;
+  display: inline-block;
+  opacity: 1;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.fa-envelope {
+  font-size: 1.25em;
+  display: inline-block;
+  background-color: #e2e2e2;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 0px 5px;
+  width: 1em;
+  text-align: center;
+  margin: 2.5px 5px;
+}
+
+.fa-mobile-alt {
+  font-size: 1.25em;
+  display: inline-block;
+  background-color: #e2e2e2;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 0px 5px;
+  width: 1em;
+  text-align: center;
+  margin: 2.5px 5px;
+}
+
+.fa-github {
+  font-size: 1.25em;
+  display: inline-block;
+  background-color: #e2e2e2;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 0px 5px;
+  width: 1em;
+  text-align: center;
+  margin: 2.5px 5px;
+}
+
+h1 {
+  font-weight: 700;
+  margin: 0px;
+  text-transform: uppercase;
+  letter-spacing: 1.75px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 3em;
+  margin-bottom: 15px;
+  margin-top: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.fa-camera:hover {
+  opacity: 0.7;
+}
+
+.fa-gamepad:hover {
+  opacity: 0.7;
+}
+
+.fa-palette:hover {
+  opacity: 0.7;
+}
+
+.contactinfo {
+  width: 750px;
+  float: right;
+  clear: right;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+hr {
+  height: 5px;
+  border: none;
+  background-color: #47596b;
+  margin-top: 15px;
+}
+
+h5 {
+  font-size: 1.5em;
+  margin: 0px;
+  letter-spacing: 1.25px;
+}
+
+.ubc p {
+  font-size: 1.25em;
+  margin: 0px;
+}
+
+.ubc i {
+  margin-right: 10px;
+  width: 30px;
+}
+
+.lhl p {
+  font-size: 1.25em;
+  margin: 0px;
+}
+
+.lhl i {
+  margin-right: 10px;
+  width: 30px;
 }
