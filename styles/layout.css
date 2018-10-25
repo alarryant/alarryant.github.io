@@ -1,3 +1,8 @@
 body {
   font-family: 'Patrick Hand', cursive;
 }
+
+img {
+  height: 200px;
+  width: 200px;
+}
