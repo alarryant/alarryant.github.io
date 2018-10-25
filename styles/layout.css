@@ -8,6 +8,8 @@ img {
 }
 
 .hobby {
-  font-size: 20px;
+  font-size: 50px;
   color: #47596b;
+  background-color: #e2e2e2;
+  border-radius: 20px;
 }
