@@ -39,6 +39,7 @@ body {
   text-align: center;
   display: inline-block;
   float: right;
+  margin-bottom: 50px;
 }
 
 .fa-camera {
@@ -215,6 +216,11 @@ hr {
   margin-top: 0px;
 }
 
+.project hr {
+  height: 5px;
+  background-color: #e2e2e2;
+}
+
 h5 {
   font-size: 1.5em;
   margin: 0px;
@@ -252,6 +258,9 @@ h5 {
 .summary {
   width: 400px;
   display: inline-block;
+  font-size: 1.25em;
+  text-align: left;
+  margin-left: 25px;
 }
 
 .sumheader {
@@ -270,6 +279,10 @@ h5 {
   float: left;
 }
 
+.education h5 {
+  margin-bottom: 20px;
+}
+
 .skills {
   text-align: left;
 }
@@ -279,18 +292,20 @@ h5 {
 }
 
 .skills h5 {
-  margin: 0px;
+  margin: 0px 40px;
 }
 
 .skills p {
   font-size: 1.25em;
-  margin: 12px 0px;
+  margin: 12px 30px 12px 45px;
+  line-height: 1.5em;
 }
 
 .empdetail {
   width: 300px;
   display: inline-block;
   float: left;
+  font-size: 1.25em;
 }
 
 .empdetail i {
@@ -310,10 +325,10 @@ h5 {
 }
 
 .borker {
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   display: inline-block;
-  margin: 0px 0px 0px 20px;
+  margin: 0px 50px 15px 10px;
   float: right;
   clear: right;
 }
@@ -326,7 +341,7 @@ h5 {
   height: 250px;
   width: 250px;
   display: inline-block;
-  margin: 0px 20px 0px 0px;
+  margin: 0px 40px 0px 0px;
   float: left;
   clear: left;
 }
@@ -337,12 +352,19 @@ h5 {
 
 .projdescription {
   font-size: 1.25em;
-  margin: 2.5px 0px;
   width: 800px;
   display: inline-block;
-  height: 250px;
+  line-height: 1.5em;
 }
 
 .employment h5 {
   margin-top: 15px;
+}
+
+li {
+  margin: 5px 0px;
+}
+
+.project h5 {
+  margin-bottom: 5px;
 }
