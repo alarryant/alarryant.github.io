@@ -8,10 +8,10 @@ body {
   width: 1100px;
 }
 
-img {
+.profile {
   height: 300px;
   width: 300px;
-  margin: 50px 50px 0px 0px;
+  margin: 60px 50px 0px 0px;
   float: left;
   clear: left;
 }
@@ -25,6 +25,20 @@ img {
 .details {
   width: 300px;
   text-align: left;
+  display: inline-block;
+}
+
+.details p {
+  background-color: #dff0ff;
+  padding: 5px 8px;
+  font-weight: 700;
+}
+
+.hobbycontainer {
+  width: 550px;
+  text-align: center;
+  display: inline-block;
+  float: right;
 }
 
 .fa-camera {
@@ -32,7 +46,7 @@ img {
   background-color: #e2e2e2;
   border-radius: 60px;
   padding: 15px;
-  margin: 0px 5px;
+  margin-right: 5px;
   display: inline-block;
   opacity: 1;
   width: 40px;
@@ -61,6 +75,34 @@ img {
   border-radius: 60px;
   padding: 15px;
   margin: 0px 5px;
+  display: inline-block;
+  opacity: 1;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.fa-plane {
+  font-size: 35px;
+  background-color: #e2e2e2;
+  border-radius: 60px;
+  padding: 15px;
+  margin: 0px 5px;
+  display: inline-block;
+  opacity: 1;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.fa-cookie-bite {
+  font-size: 35px;
+  background-color: #e2e2e2;
+  border-radius: 60px;
+  padding: 15px;
+  margin-left: 5px;
   display: inline-block;
   opacity: 1;
   width: 40px;
@@ -110,27 +152,45 @@ h1 {
   margin: 0px;
   text-transform: uppercase;
   letter-spacing: 1.75px;
+  background-color: #dff0ff;
+  padding: 5px;
+  text-align: center;
 }
 
 .name {
   font-weight: 700;
-  font-size: 3em;
+  font-size: 4.5em;
   margin-bottom: 15px;
   margin-top: 50px;
   text-transform: uppercase;
   letter-spacing: 2px;
+  background-color: #dff0ff;
+  padding: 5px 10px;
 }
 
 .fa-camera:hover {
   opacity: 0.7;
+  background-color: #dff0ff;
 }
 
 .fa-gamepad:hover {
   opacity: 0.7;
+  background-color: #dff0ff;
 }
 
 .fa-palette:hover {
   opacity: 0.7;
+  background-color: #dff0ff;
+}
+
+.fa-plane:hover {
+  opacity: 0.7;
+  background-color: #dff0ff;
+}
+
+.fa-cookie-bite:hover {
+  opacity: 0.7;
+  background-color: #dff0ff;
 }
 
 .contactinfo {
@@ -142,10 +202,17 @@ h1 {
 }
 
 hr {
-  height: 5px;
+  height: 10px;
   border: none;
-  background-color: #47596b;
+  background-color: #dff0ff;
   margin-top: 15px;
+  width: 100%;
+}
+
+.employment hr {
+  height: 5px;
+  background-color: #e2e2e2;
+  margin-top: 0px;
 }
 
 h5 {
@@ -156,20 +223,126 @@ h5 {
 
 .ubc p {
   font-size: 1.25em;
-  margin: 0px;
+  margin: 2.5px 0px;
 }
 
 .ubc i {
-  margin-right: 10px;
+  margin: 2.5px 10px 2.5px 0px;
   width: 30px;
+  text-align: center;
+  background-color: #dff0ff;
+  border-radius: 25px;
+  padding: 8px 4px;
 }
 
 .lhl p {
   font-size: 1.25em;
-  margin: 0px;
+  margin: 2.5px 0px;
 }
 
 .lhl i {
-  margin-right: 10px;
+  margin: 2.5px 10px 2.5px 0px;
   width: 30px;
+  text-align: center;
+  background-color: #dff0ff;
+  border-radius: 25px;
+  padding: 8px 4px;
+}
+
+.summary {
+  width: 400px;
+  display: inline-block;
+}
+
+.sumheader {
+  text-align: right;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-right: 25px;
+  font-size: 3em;
+  background-color: white;
+  padding: 0px;
+}
+
+.education {
+  width: 476px;
+  display: inline-block;
+  float: left;
+}
+
+.skills {
+  text-align: left;
+}
+
+.skills h1 {
+  text-align: center;
+}
+
+.skills h5 {
+  margin: 0px;
+}
+
+.skills p {
+  font-size: 1.25em;
+  margin: 12px 0px;
+}
+
+.empdetail {
+  width: 300px;
+  display: inline-block;
+  float: left;
+}
+
+.empdetail i {
+  margin: 2.5px 10px 2.5px 0px;
+  width: 25px;
+  text-align: center;
+  background-color: #dff0ff;
+  border-radius: 25px;
+  padding: 8px 4px;
+}
+
+.description {
+  font-size: 1.25em;
+  margin: 2.5px 0px;
+  width: 750px;
+  display: inline-block;
+}
+
+.borker {
+  height: 250px;
+  width: 250px;
+  display: inline-block;
+  margin: 0px 0px 0px 20px;
+  float: right;
+  clear: right;
+}
+
+.borker:hover {
+  opacity: 0.7;
+}
+
+.choochoose {
+  height: 250px;
+  width: 250px;
+  display: inline-block;
+  margin: 0px 20px 0px 0px;
+  float: left;
+  clear: left;
+}
+
+.choochoose:hover {
+  opacity: 0.7;
+}
+
+.projdescription {
+  font-size: 1.25em;
+  margin: 2.5px 0px;
+  width: 800px;
+  display: inline-block;
+  height: 250px;
+}
+
+.employment h5 {
+  margin-top: 15px;
 }
