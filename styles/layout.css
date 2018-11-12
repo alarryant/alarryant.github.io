@@ -22,6 +22,12 @@ body {
   margin: 0px 5px;
 }
 
+.print {
+  font-size: 1.15em;
+  display: inline-block;
+  margin: 0px 5px;
+}
+
 .details {
   width: 300px;
   text-align: left;
@@ -140,6 +146,18 @@ body {
 }
 
 .fa-github {
+  font-size: 1.25em;
+  display: inline-block;
+  background-color: #e2e2e2;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 0px 5px;
+  width: 1em;
+  text-align: center;
+  margin: 2.5px 5px;
+}
+
+.fa-print {
   font-size: 1.25em;
   display: inline-block;
   background-color: #e2e2e2;
@@ -297,8 +315,7 @@ h5 {
 
 .sumheader {
   text-align: right;
-  margin-bottom: 10px;
-  margin-right: 25px;
+  margin: 10px 25px 10px 0px;
   font-size: 3em;
   background-color: white;
   padding: 0px;
