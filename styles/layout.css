@@ -41,14 +41,10 @@ body {
 }
 
 .hobbycontainer {
-  width: 330px;
+  width: 470px;
   text-align: center;
   display: inline-block;
   float: right;
-}
-
-.hobbycontainer h1 {
-  margin-bottom: 10px;
 }
 
 .fa-camera {
@@ -234,7 +230,7 @@ hr {
 .employment hr {
   height: 5px;
   background-color: #e2e2e2;
-  margin-top: 5px;
+  margin-top: 3px;
 }
 
 .project hr {
@@ -248,29 +244,20 @@ h5 {
   letter-spacing: 1.25px;
 }
 
-.education h5 {
-  margin-left: 30px;
-}
-
 .ubc {
-  width: 437px;
   display: inline;
   float: right;
-}
-
-.ubc h5 {
-  width: 437px;
-  margin-left: 48px;
+  margin-right: 50px;
+  margin-bottom: 10px;
 }
 
 .ubc p {
   font-size: 1.05em;
-  width: 437px;
   margin: 2.5px 0px;
 }
 
 .ubc i {
-  margin: 2.5px 10px 2.5px 0px;
+  margin: 2.5px 10px 2.5px 20px;
   width: 30px;
   text-align: center;
   background-color: #dff0ff;
@@ -279,29 +266,34 @@ h5 {
 }
 
 .lhl {
-  width: 254px;
   display: inline;
   float: left;
-}
-
-.lhl h5 {
-  width: 175px;
-  margin-left: 78px;
+  width: 600px;
 }
 
 .lhl p {
   font-size: 1.05em;
-  width: 254px;
   margin: 2.5px 0px;
 }
 
 .lhl i {
-  margin: 2.5px 10px 2.5px 30px;
+  margin: 2.5px 10px 2.5px 50px;
   width: 30px;
   text-align: center;
   background-color: #dff0ff;
   border-radius: 25px;
   padding: 8px 4px;
+}
+
+.lhl span {
+  width: 320px;
+  float: right;
+  line-height: 1.5em;
+}
+
+.lhldetails {
+  width: 254px;
+  float: left;
 }
 
 .summary {
@@ -322,13 +314,17 @@ h5 {
 }
 
 .education {
-  width: 745px;
+  width: 1100px;
   display: inline-block;
-  float: left;
 }
 
 .education h5 {
   margin-bottom: 10px;
+  margin-left: 98px;
+}
+
+.ubc h5 {
+  margin-left: 50px;
 }
 
 .skills {
@@ -375,7 +371,7 @@ h5 {
 }
 
 .description {
-  font-size: 1.1em;
+  font-size: 1.05em;
   width: 700px;
   display: inline-block;
 }
@@ -476,4 +472,13 @@ a:visited {
 
 a:hover {
   opacity: 0.7;
+}
+
+@media print {
+  .print {
+    display: none;
+  }
+  .fa-print {
+    display: none;
+  }
 }
