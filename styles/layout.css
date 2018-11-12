@@ -380,7 +380,7 @@ h5 {
   height: 200px;
   width: 200px;
   display: inline-block;
-  margin: 0px 50px 15px 10px;
+  margin: 10px 50px 15px 10px;
   float: right;
   clear: right;
 }
@@ -393,12 +393,25 @@ h5 {
   height: 200px;
   width: 200px;
   display: inline-block;
-  margin: 0px 25px 0px 50px;
+  margin: 10px 25px 0px 50px;
   float: left;
   clear: left;
 }
 
 .choochoose:hover {
+  opacity: 0.7;
+}
+
+.jungle {
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  margin: 30px 25px 0px 50px;
+  float: left;
+  clear: left;
+}
+
+.jungle:hover {
   opacity: 0.7;
 }
 
