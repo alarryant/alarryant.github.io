@@ -41,18 +41,17 @@ body {
 }
 
 .hobbycontainer {
-  width: 470px;
+  width: 1100px;
   text-align: center;
-  display: inline-block;
-  float: right;
+  margin: auto;
 }
 
 .fa-camera {
   font-size: 25px;
   background-color: #e2e2e2;
   border-radius: 60px;
-  padding: 5px;
-  margin-right: 5px;
+  padding: 10px;
+  margin-right: 10px;
   display: inline-block;
   opacity: 1;
   width: 40px;
@@ -65,8 +64,8 @@ body {
   font-size: 25px;
   background-color: #e2e2e2;
   border-radius: 60px;
-  padding: 5px;
-  margin: 0px 5px;
+  padding: 10px;
+  margin: 0px 10px;
   display: inline-block;
   opacity: 1;
   width: 40px;
@@ -79,8 +78,8 @@ body {
   font-size: 25px;
   background-color: #e2e2e2;
   border-radius: 60px;
-  padding: 5px;
-  margin: 0px 5px;
+  padding: 10px;
+  margin: 0px 10px;
   display: inline-block;
   opacity: 1;
   width: 40px;
@@ -93,8 +92,8 @@ body {
   font-size: 25px;
   background-color: #e2e2e2;
   border-radius: 60px;
-  padding: 5px;
-  margin: 0px 5px;
+  padding: 10px;
+  margin: 0px 10px;
   display: inline-block;
   opacity: 1;
   width: 40px;
@@ -107,8 +106,8 @@ body {
   font-size: 25px;
   background-color: #e2e2e2;
   border-radius: 60px;
-  padding: 5px;
-  margin-left: 5px;
+  padding: 10px;
+  margin-left: 10px;
   display: inline-block;
   opacity: 1;
   width: 40px;
@@ -169,10 +168,11 @@ h1 {
   font-weight: 700;
   margin: 0px;
   text-transform: uppercase;
-  letter-spacing: 1.75px;
+  letter-spacing: 1.5px;
   background-color: #dff0ff;
   padding: 5px;
   text-align: center;
+  font-size: 1.6em;
 }
 
 .name {
@@ -316,6 +316,7 @@ h5 {
 .education {
   width: 1100px;
   display: inline-block;
+  margin-bottom: 15px;
 }
 
 .education h5 {
@@ -406,7 +407,7 @@ h5 {
   height: 200px;
   width: 200px;
   display: inline-block;
-  margin: 10px 25px 0px 50px;
+  margin: 5px 25px 5px 50px;
   float: left;
   clear: left;
 }
@@ -419,7 +420,7 @@ h5 {
   height: 200px;
   width: 200px;
   display: inline-block;
-  margin: 30px 25px 0px 50px;
+  margin: 5px 25px 0px 50px;
   float: left;
   clear: left;
 }
@@ -473,6 +474,46 @@ a:visited {
 a:hover {
   opacity: 0.7;
 }
+
+.print:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.projname h5 {
+  text-align: left;
+  width: 362px;
+  float: left;
+  margin: 0px 0px 5px 0px;
+}
+
+.projname p {
+  text-align: right;
+  width: 362px;
+  float: right;
+  margin: 0px 0px 5px 0px;
+  font-style: italic;
+}
+
+/*.fa-camera-desc {
+  display: inline-block;
+}
+
+.fa-gamepad-desc {
+  display: inline-block;
+}
+
+.fa-palette-desc {
+  display: inline-block;
+}
+
+.fa-plane-desc {
+  display: inline-block;
+}
+
+.fa-cookie-bite-desc {
+  display: inline-block;
+}*/
 
 @media print {
   .print {
