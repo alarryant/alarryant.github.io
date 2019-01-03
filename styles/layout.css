@@ -11,21 +11,23 @@ body {
 .profile {
   height: 300px;
   width: 300px;
-  margin: 79px 50px 0px 0px;
+  margin: 100px 50px 0px 0px;
   float: left;
   clear: left;
 }
 
 .contact {
-  font-size: 1.15em;
+  font-size: 1em;
   display: inline-block;
   margin: 0px 5px;
+  letter-spacing: 1px;
 }
 
 .print {
-  font-size: 1.15em;
+  font-size: 1em;
   display: inline-block;
   margin: 0px 5px;
+  letter-spacing: 1px;
 }
 
 .details {
@@ -152,6 +154,18 @@ body {
   margin: 2.5px 5px;
 }
 
+.fa-linkedin-in {
+  font-size: 1.25em;
+  display: inline-block;
+  background-color: #e2e2e2;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 0px 5px;
+  width: 1em;
+  text-align: center;
+  margin: 2.5px 5px;
+}
+
 .fa-print {
   font-size: 1.25em;
   display: inline-block;
@@ -252,13 +266,13 @@ h5 {
 }
 
 .ubc p {
-  font-size: 1.05em;
+  font-size: 1em;
   margin: 2.5px 0px;
 }
 
 .ubc i {
   margin: 2.5px 10px 2.5px 20px;
-  width: 30px;
+  width: 25px;
   text-align: center;
   background-color: #dff0ff;
   border-radius: 25px;
@@ -272,13 +286,13 @@ h5 {
 }
 
 .lhl p {
-  font-size: 1.05em;
+  font-size: 1em;
   margin: 2.5px 0px;
 }
 
 .lhl i {
   margin: 2.5px 10px 2.5px 50px;
-  width: 30px;
+  width: 25px;
   text-align: center;
   background-color: #dff0ff;
   border-radius: 25px;
