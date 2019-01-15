@@ -523,6 +523,12 @@ a:hover {
 }
 
 @media print {
+  .fa-linkedin-in {
+    display: none;
+  }
+  .fa-github {
+    display: none;
+  }
   .print {
     display: none;
   }
