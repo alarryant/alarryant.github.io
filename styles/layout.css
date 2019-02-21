@@ -1,11 +1,12 @@
 body {
   font-family: 'Barlow', sans-serif;
   color: #47596b;
+  width: 1600px;
 }
 
 .container {
   margin: auto;
-  width: 1100px;
+  width: 1500px;
 }
 
 .profile {
@@ -164,7 +165,7 @@ h5 {
 }
 
 .ubc p {
-  font-size: 1em;
+  font-size: 1.1em;
   margin: 2.5px 0px;
 }
 
@@ -180,11 +181,11 @@ h5 {
 .lhl {
   display: inline;
   float: left;
-  width: 640px;
+  width: 1000px;
 }
 
 .lhl p {
-  font-size: 1em;
+  font-size: 1.15em;
   margin: 2.5px 0px;
 }
 
@@ -198,18 +199,20 @@ h5 {
 }
 
 .lhl span {
-  width: 350px;
+  width: 650px;
   float: right;
+  padding-top: 35px;
   line-height: 1.5em;
+  font-size: 1.15em;
 }
 
 .lhldetails {
-  width: 254px;
+  width: 304px;
   float: left;
 }
 
 .summary {
-  width: 550px;
+  width: 950px;
   display: inline-block;
   font-size: 1.1em;
   text-align: left;
@@ -220,17 +223,17 @@ h5 {
 .summary h5 {
   background-color: #e2e2e2;
   text-align: center;
-  width: 550px;
+  width: 950px;
   padding: 5px 0px;
 }
 
 .summary p {
   margin: 10px 0px;
-  padding: 0px 40px;
+  padding: 0px 25px;
 }
 
 .education {
-  width: 1100px;
+  width: 1500px;
   display: inline-block;
   margin-bottom: 15px;
 }
@@ -265,10 +268,10 @@ h5 {
 }
 
 .empdetail {
-  width: 250px;
+  width: 300px;
   display: inline-block;
   float: left;
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: 700;
   margin: 0px 50px;
 }
@@ -293,8 +296,8 @@ h5 {
 }
 
 .description {
-  font-size: 1em;
-  width: 700px;
+  font-size: 1.1em;
+  width: 1050px;
   display: inline-block;
 }
 
@@ -325,8 +328,8 @@ h5 {
 }
 
 .projdescriptionright {
-  font-size: 1em;
-  width: 825px;
+  font-size: 1.1em;
+  width: 1225px;
   display: inline-block;
   line-height: 1.5em;
   padding: 0px 0px 0px 50px;
@@ -334,8 +337,16 @@ h5 {
 }
 
 .projdescriptionleft {
+  font-size: 1.1em;
+  width: 1225px;
+  display: inline-block;
+  line-height: 1.5em;
+  padding: 0px 50px 0px 50px;
+  min-height: 135px;
+}
+
+.otherprojdescription {
   font-size: 1em;
-  width: 825px;
   display: inline-block;
   line-height: 1.5em;
   padding: 0px 50px 0px 50px;
@@ -348,18 +359,6 @@ li {
 
 .project h5 {
   margin-bottom: 5px;
-}
-
-.column {
-  width: 450px;
-  display: inline-block;
-  background-color: white;
-}
-
-.anothercolumn {
-  width: 500px;
-  display: inline-block;
-  background-color: white;
 }
 
 a:link {
@@ -383,9 +382,34 @@ a:hover {
 
 .projname h5 {
   text-align: left;
-  width: 542px;
+  width: 942px;
   float: left;
   margin: 0px 0px 5px 0px;
+}
+
+.otherprojname {
+  width: 45%;
+  float: left;
+  margin-right: 25px;
+  margin-top: 10px;
+}
+
+.otherprojname p {
+  text-align: right;
+}
+
+.otherprojname h5 {
+  width: 100%;
+  text-align: right;
+  font-size: 2em;
+  float: left;
+}
+
+.otherproj {
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+  margin: 10px 25px;
 }
 
 .projname p {
@@ -394,19 +418,4 @@ a:hover {
   float: right;
   margin: 0px 0px 5px 0px;
   font-style: italic;
-}
-
-@media print {
-  .fa-linkedin-in {
-    display: none;
-  }
-  .fa-github {
-    display: none;
-  }
-  .print {
-    display: none;
-  }
-  .fa-print {
-    display: none;
-  }
 }
