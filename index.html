@@ -11,97 +11,79 @@
 
     <!-- App CSS -->
     <link rel="stylesheet" href="styles/layout.css" type="text/css" />
-
-    <!-- External JS -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <!-- App JS -->
-    <!-- <script src="app.js" type="text/javascript"></script> -->
-
   </head>
 
   <body>
     <!-- Page-specific (main) content here -->
     <main class="container">
-      <!-- <img class="profile" src="images/Resume.png"> -->
       <div class="contactinfo">
         <h1 class="name">Angela Larryant</h1>
         <div class="details">
-          <i class="far fa-envelope"></i><p class="contact"><a href="mailto:angelarryant@gmail.com">angelarryant@gmail.com</a></p><br>
-          <i class="fas fa-mobile-alt"></i><p class="contact">778-885-4807</p><br>
-           <i class="fab fa-github"></i><p class="contact"><a href="https://github.com/alarryant">GitHub</a></p><br>
-          <i class="fab fa-linkedin-in"></i><p class="contact"><a href="https://www.linkedin.com/in/angela-larryant-bba910169/">LinkedIn</a></p><br>
-          <i class="fas fa-print"></i><a href="images/Angela_Larryant_Resume.pdf" download="Angela_Larryant_Resume"><p class="print">printer-friendly</p></a><br>
-          <!-- <h1 class="sumheader"><i class="fas fa-bolt"></i> Summary</h1> -->
+          <i class="far fa-envelope contactdetails"></i><p class="contact"><a href="mailto:angelarryant@gmail.com">angelarryant@gmail.com</a></p><br>
+          <i class="fas fa-mobile-alt contactdetails"></i><p class="contact">778-885-4807</p><br>
+          <i class="fas fa-map-marker-alt contactdetails"></i><p class="contact">Toronto, ON & Vancouver, BC</p><br>
+           <i class="fab fa-github contactdetails"></i><p class="contact"><a href="https://github.com/alarryant">GitHub</a></p><br>
+          <i class="fab fa-linkedin-in contactdetails"></i><p class="contact"><a href="https://www.linkedin.com/in/angela-larryant-bba910169/">LinkedIn</a></p><br>
+          <i class="fas fa-download contactdetails"></i><a href="images/Angela_Larryant_Resume.pdf" target="_blank" download="Angela_Larryant_Resume"><p class="print">PDF</p></a><br>
         </div>
         <div class="summary">
-          A junior web developer with a drive to creatively solve problems and to make things beautiful. My experience working for a start-up designing innovative cookware solidified my passion for the functional and aesthetic. This lead to my interest in front-end web development - I can solve problems with the end goal of producing an eye-catching application that effectively serves its clientele. Additionally, as an eager and open-minded learner, I am keen to sharpen my back-end web development skills so that I can flourish in a variety of professional environments.
-        </div>
-      </div>
-      <hr>
-      <br>
-      <div class="skills">
-        <h1><i class="fas fa-book"></i> Skill Stack</h1><br>
-        <h5>Languages, Frameworks, & Libraries</h5>
-        <p>JavaScript, Ruby, Ruby on Rails, Node.js, React, jQuery, Express, EJS, HTML/CSS/SASS, & Bootstrap</p>
-        <br>
+          <h5>Languages, Frameworks, & Libraries</h5>
+        <p>JavaScript (ES6), Ruby, Ruby on Rails, Node.js, React, jQuery, Express, EJS, HTML5/CSS/SASS, & Bootstrap</p>
         <div class="column">
           <h5>Databases</h5>
           <p>PostgreSQL & MongoDB</p>
         </div>
         <div class="anothercolumn">
           <h5>Other</h5>
-          <p>Git, Adobe Photoshop, Excel, & Hootsuite</p>
+          <p>Git, Adobe Photoshop, HubSpot, Excel, & Hootsuite</p>
         </div>
       </div>
-      <br>
+      <hr>
+      </div>
       <div class="project">
         <h1>Projects <i class="fas fa-laptop"></i></h1><br>
-        <span class="projdescription">
-          <span class="projname"><h5>Borker</h5><p>Sept. 2018</p></span>
-          Borker is a single-page Twitter clone full-stack web application created with <b>HTML/CSS, JavaScript, jQuery, Node.js, Express, and MongoDB.</b> Features implemented include: hiding and revealing the compose container, rendering new posts without refreshing the page, and storing posts in the database. I learned to target and retrieve data from the DOM, allowing me to improve user interaction. This was my first major project using CSS, and it helped me realize how much I enjoy styling and design.
-        </span>
-        <a href="https://github.com/alarryant/tweeter"><img class="borker" src="images/Borker.png"></a>
-        <hr>
-        <a href="https://github.com/alarryant/Decision-Maker"><img class="choochoose" src="images/ChooChoose.png"></a>
-        <span class="projdescription">
-          <span class="projname"><h5>Choo-Choose</h5><p>Sept. 2018</p></span>
-          Choo-Choose is a full-stack polling web application created with <b>HTML/CSS/Sass, JavaScript, jQuery, EJS, Node.js, Express, Mailgun and PostgreSQL.</b> It is a collaborative project in which I was the lead front-end developer. Taking care to optimize user experience, I helped implement features such as: designing and connecting the PostgresSQL database, adding and deleting additional input fields, dragging and dropping vote options, and a button to copy voting link to clipboard.
+        <a href="https://github.com/monicasoojilee/card-game"><img class="leftalign" src="images/wip.jpeg"></a>
+        <span class="projdescriptionleft">
+          <span class="projname"><a href="https://github.com/monicasoojilee/card-game"><h5>Untitled Card Game</h5></a><p>Work in progress</p></span>
+          Untitled Card Game is an application created with <b>HTML/CSS, JavaScript, React, Websockets, Node.js, Webpack, and PostgreSQL.</b> It is a platform that will host a variety of card games such as Blackjack. Players will be matched in real time and multiple card games can be played simultaneously across the platform.
         </span>
         <hr>
-        <span class="projdescription">
-          <span class="projname"><h5>Doge Park</h5><p>Sept. 2018</p></span>
-          Doge Park is a chatroom full-stack web application created with <b>HTML/CSS/Sass, JavaScript, React, Node.js, Express, Websockets, and Webpack.</b> Features implemented include: colour assignment to new connections, changing display names, notifying other users of new connections or disconnections, sending and receiving messages in real time, and sending images in the chat by simply typing in the image URL. I was exposed to the various utilities available to developers, such as Webpack and Babel, that improve efficiency and streamlines code.
-          </span>
-        <a href="https://github.com/alarryant/chatty-app"><img class="dogepark" src="images/DogePark.png"></a>
-      <hr>
-        <a href="https://github.com/alarryant/jungle-rails"><img class="jungle" src="images/Jungle.png"></a>
-        <span class="projdescription">
-          <span class="projname"><h5>Jungle</h5><p>Oct. 2018</p></span>
-          Jungle is an e-commerce web application created with <b>HTML/CSS/Sass, Ruby, Rails, and PostgreSQL.</b> It was a Rails learning exercise, in which I implemented validations during the checkout, review, and user authentication process. I established familiarity with Active Record through extensive data retrieval from various tables. As the majority of the application was pre-built, I had to deduce which files to add features to or debug, all while maintaining the integrity of the application's foundation.
-        </span>
-        <hr>
-        <span class="projdescription">
-          <span class="projname"><h5>Exposure</h5><p>Nov. 2018</p></span>
-          <b>LHL People's Choice Award Recipient - 11/29/18</b><br>
-          Exposure is full-stack web application created with <b>HTML/CSS, JavaScript, React, Node.js, Express, PostgreSQL, and Webpack.</b> It helps connect freelance photographers with potential clients, and event planners with photographers. Exposure allows clients to search by keyword and navigate to the photographer's profile based on photos that fit their aesthetic. Photographers can upload to their portfolio and update their price packages and availabilities.
-          </span>
-        <a href="https://github.com/alarryant/exposure"><img class="dogepark" src="images/Exposure.png"></a>
-        <hr>
-        <a href="https://github.com/alarryant/lol-matchhistory"><img class="lol-match" src="images/LoL-Match-History-Icon.png"></a>
-        <span class="projdescription">
-          <span class="projname"><h5>League of Legends Match History</h5><p>Dec. 2018</p></span>
+        <span class="projdescriptionright">
+          <span class="projname"><a href="https://github.com/alarryant/lol-matchhistory"><h5>League of Legends Match History</h5></a><p>Dec. 2018</p></span>
           League of Legends Match History is a League of Legends utility application created with <b>HTML/CSS, JavaScript, React, Express, and Webpack.</b> It allows users to enter a summoner name and region and retrieve the summoner's most recent matches. This application utilized the Riot Games API and the League.JS library, and familiarized myself with working with APIs, rate limits, and navigating a complex data structure.
         </span>
+        <a href="https://github.com/alarryant/lol-matchhistory"><img class="rightalign" src="images/LoL-Match-History-Icon.png"></a>
+        <hr>
+        <a href="https://github.com/alarryant/exposure"><img class="leftalign" src="images/Exposure.png"></a>
+        <span class="projdescriptionleft">
+          <span class="projname"><a href="https://github.com/alarryant/exposure"><h5>Exposure (LHL People's Choice Award Recipient)</h5></a><p>Nov. 2018</p></span>
+          Exposure is full-stack web application created with <b>HTML/CSS, JavaScript, React, Node.js, Express, PostgreSQL, and Webpack.</b> It helps connect freelance photographers with potential clients, and event planners with photographers. Exposure allows clients to search by keyword and navigate to the photographer's profile based on photos that fit their aesthetic. Photographers can upload to their portfolio and update their price packages and availabilities.
+          </span>
+        <hr>
+        <span class="projdescriptionright">
+          <span class="projname"><a href="https://github.com/alarryant/Decision-Maker"><h5>Choo-Choose</h5></a><p>Sept. 2018</p></span>
+          Choo-Choose is a full-stack polling web application created with <b>HTML/CSS/Sass, JavaScript, jQuery, EJS, Node.js, Express, Mailgun and PostgreSQL.</b> Taking care to optimize user experience, I helped implement features such as: designing and connecting the PostgresSQL database, adding and deleting additional input fields, dragging and dropping vote options, and a button to copy voting link to clipboard.
+        </span>
+        <a href="https://github.com/alarryant/Decision-Maker"><img class="rightalign" src="images/ChooChoose.png"></a>
         </div>
-      <br>
-      <br>
-      <br>
       <div class="employment">
         <h1><i class="fas fa-briefcase"></i> Employment</h1>
           <h5>Ensembl.</h5>
           <hr>
+          <span class="empdetail">
+            <p><i class="fas fa-user"></i>Contract Developer</p>
+            <p><i class="far fa-calendar"></i>Feb. 2019 - present</p>
+            <p><i class="fas fa-map-marker-alt"></i>Toronto, ON</p>
+          </span>
+          <span class="description">
+            <ul>
+              <li>Integrate third-party API with HubSpot (CMS) to set up a sweepstakes campaign.</li>
+              <li>Build landing pages based on provided wireframes in HubSpot to promote and facilitate the campaign.</li>
+              <li>Implement custom forms using HTML5, CSS, and jQuery.</li>
+            </ul>
+          </span>
+          <br>
+          <br>
           <span class="empdetail">
             <p><i class="fas fa-user"></i>Social Media Intern</p>
             <p><i class="far fa-calendar"></i>Jan. 2018 - Aug. 2018</p>
@@ -126,8 +108,8 @@
             <ul>
               <li>Improved communication skills by serving as the point of contact between the organization and Community Living BC.</li>
               <li>Interpreted funding contracts and validated the agreement terms before processing.</li>
-              <li>Maintained accurate records of supported individuals and their funding and programs.</li>
               <li>Participated in the development of an improved contract processing workflow that minimizes the risk of errors and leads to greater communication between parties.</li>
+              <li>Ad hoc WordPress development.</li>
             </ul>
           </span>
           <h5>London Drugs</h5>
@@ -169,11 +151,11 @@
       <div class="hobbycontainer">
           <h1><i class="fas fa-dog"></i> Interests</h1><br>
           <span class="hobby">
-            <i class="fas fa-camera"></i>
-            <i class="fas fa-gamepad"></i>
-            <i class="fas fa-palette"></i>
-            <i class="fas fa-plane"></i>
-            <i class="fas fa-cookie-bite"></i>
+            <i class="fas fa-camera interest"></i>
+            <i class="fas fa-gamepad interest"></i>
+            <i class="fas fa-palette interest"></i>
+            <i class="fas fa-plane interest"></i>
+            <i class="fas fa-cookie-bite interest"></i>
           </span>
         </div>
     </main>

@@ -31,7 +31,7 @@ body {
 }
 
 .details {
-  width: 300px;
+  width: 330px;
   text-align: left;
   display: inline-block;
 }
@@ -48,63 +48,7 @@ body {
   margin: auto;
 }
 
-.fa-camera {
-  font-size: 25px;
-  background-color: #e2e2e2;
-  border-radius: 60px;
-  padding: 10px;
-  margin-right: 10px;
-  display: inline-block;
-  opacity: 1;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-}
-
-.fa-gamepad {
-  font-size: 25px;
-  background-color: #e2e2e2;
-  border-radius: 60px;
-  padding: 10px;
-  margin: 0px 10px;
-  display: inline-block;
-  opacity: 1;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-}
-
-.fa-palette {
-  font-size: 25px;
-  background-color: #e2e2e2;
-  border-radius: 60px;
-  padding: 10px;
-  margin: 0px 10px;
-  display: inline-block;
-  opacity: 1;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-}
-
-.fa-plane {
-  font-size: 25px;
-  background-color: #e2e2e2;
-  border-radius: 60px;
-  padding: 10px;
-  margin: 0px 10px;
-  display: inline-block;
-  opacity: 1;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  text-align: center;
-}
-
-.fa-cookie-bite {
+.interest {
   font-size: 25px;
   background-color: #e2e2e2;
   border-radius: 60px;
@@ -118,55 +62,7 @@ body {
   text-align: center;
 }
 
-.fa-envelope {
-  font-size: 1.25em;
-  display: inline-block;
-  background-color: #e2e2e2;
-  border-radius: 30px;
-  padding: 10px;
-  margin: 0px 5px;
-  width: 1em;
-  text-align: center;
-  margin: 2.5px 5px;
-}
-
-.fa-mobile-alt {
-  font-size: 1.25em;
-  display: inline-block;
-  background-color: #e2e2e2;
-  border-radius: 30px;
-  padding: 10px;
-  margin: 0px 5px;
-  width: 1em;
-  text-align: center;
-  margin: 2.5px 5px;
-}
-
-.fa-github {
-  font-size: 1.25em;
-  display: inline-block;
-  background-color: #e2e2e2;
-  border-radius: 30px;
-  padding: 10px;
-  margin: 0px 5px;
-  width: 1em;
-  text-align: center;
-  margin: 2.5px 5px;
-}
-
-.fa-linkedin-in {
-  font-size: 1.25em;
-  display: inline-block;
-  background-color: #e2e2e2;
-  border-radius: 30px;
-  padding: 10px;
-  margin: 0px 5px;
-  width: 1em;
-  text-align: center;
-  margin: 2.5px 5px;
-}
-
-.fa-print {
+.contactdetails {
   font-size: 1.25em;
   display: inline-block;
   background-color: #e2e2e2;
@@ -251,6 +147,7 @@ hr {
 .project hr {
   height: 5px;
   background-color: #e2e2e2;
+  margin-top: 0px;
 }
 
 h5 {
@@ -283,7 +180,7 @@ h5 {
 .lhl {
   display: inline;
   float: left;
-  width: 600px;
+  width: 640px;
 }
 
 .lhl p {
@@ -301,7 +198,7 @@ h5 {
 }
 
 .lhl span {
-  width: 320px;
+  width: 350px;
   float: right;
   line-height: 1.5em;
 }
@@ -312,21 +209,24 @@ h5 {
 }
 
 .summary {
-  width: 500px;
+  width: 550px;
   display: inline-block;
-  font-size: 1em;
+  font-size: 1.1em;
   text-align: left;
-  margin-left: 100px;
+  margin-left: 50px;
   line-height: 1.5em;
 }
 
-.sumheader {
-  float: right;
-  text-align: right;
-  margin: 10px 25px 10px 0px;
-  font-size: 3em;
-  background-color: white;
-  padding: 0px;
+.summary h5 {
+  background-color: #e2e2e2;
+  text-align: center;
+  width: 550px;
+  padding: 5px 0px;
+}
+
+.summary p {
+  margin: 10px 0px;
+  padding: 0px 40px;
 }
 
 .education {
@@ -373,6 +273,10 @@ h5 {
   margin: 0px 50px;
 }
 
+.empdetail p {
+  margin: 5px 0px;
+}
+
 .empdetail i {
   margin: 2.5px 10px 2.5px 0px;
   width: 25px;
@@ -385,93 +289,61 @@ h5 {
 .employment h5 {
   margin-left: 50px;
   font-size: 1.25em;
+  margin-top: 5px;
 }
 
 .description {
-  font-size: 1.05em;
+  font-size: 1em;
   width: 700px;
   display: inline-block;
 }
 
-.borker {
-  height: 150px;
-  width: 150px;
+.leftalign {
+  height: 100px;
+  width: 100px;
   display: inline-block;
-  margin: 0px 50px 15px 10px;
+  margin: 5px 5px 5px 50px;
+  float: left;
+  clear: left;
+}
+
+.leftalign:hover {
+  opacity: 0.7;
+}
+
+.rightalign {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+  margin: 5px 50px 0px 5px;
   float: right;
   clear: right;
 }
 
-.borker:hover {
+.rightalign:hover {
   opacity: 0.7;
 }
 
-.dogepark {
-  height: 150px;
-  width: 150px;
-  display: inline-block;
-  margin: 10px 50px 15px 10px;
-  float: right;
-  clear: right;
-}
-
-.dogepark:hover {
-  opacity: 0.7;
-}
-
-.choochoose {
-  height: 150px;
-  width: 150px;
-  display: inline-block;
-  margin: 5px 25px 5px 50px;
-  float: left;
-  clear: left;
-}
-
-.choochoose:hover {
-  opacity: 0.7;
-}
-
-.jungle {
-  height: 150px;
-  width: 150px;
-  display: inline-block;
-  margin: 5px 25px 0px 50px;
-  float: left;
-  clear: left;
-}
-
-.jungle:hover {
-  opacity: 0.7;
-}
-
-.lol-match {
-  height: 150px;
-  width: 150px;
-  display: inline-block;
-  margin: 5px 25px 0px 50px;
-  float: left;
-  clear: left;
-}
-
-.lol-match:hover {
-  opacity: 0.7;
-}
-
-.projdescription {
+.projdescriptionright {
   font-size: 1em;
-  width: 775px;
+  width: 825px;
   display: inline-block;
   line-height: 1.5em;
-  padding: 0px 50px;
+  padding: 0px 0px 0px 50px;
+  min-height: 135px;
 }
 
-.employment h5 {
-  margin-top: 15px;
+.projdescriptionleft {
+  font-size: 1em;
+  width: 825px;
+  display: inline-block;
+  line-height: 1.5em;
+  padding: 0px 50px 0px 50px;
+  min-height: 135px;
 }
 
 li {
-  margin: 10px 0px;
+  margin: 5px 0px;
 }
 
 .project h5 {
@@ -479,13 +351,13 @@ li {
 }
 
 .column {
-  width: 475px;
+  width: 450px;
   display: inline-block;
   background-color: white;
 }
 
 .anothercolumn {
-  width: 475px;
+  width: 500px;
   display: inline-block;
   background-color: white;
 }
@@ -511,14 +383,14 @@ a:hover {
 
 .projname h5 {
   text-align: left;
-  width: 412px;
+  width: 542px;
   float: left;
   margin: 0px 0px 5px 0px;
 }
 
 .projname p {
   text-align: right;
-  width: 362px;
+  width: 282px;
   float: right;
   margin: 0px 0px 5px 0px;
   font-style: italic;
